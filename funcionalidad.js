@@ -15,7 +15,7 @@ let arregloDeSeries=[];
      let almacenamientoDeLCS=JSON.parse(localStorage.getItem("nombreClaveInventadoPorMiKey"));
 
 let padreUl=document.getElementById("padreListaSeries");
-padreUl.innerHTML="";
+padreUl.innerHTML=""; 
 // for(let i=0; almacenamientoDeLCS.length; i++){}
 for (const valor of almacenamientoDeLCS){
     let li= document.createElement("li");
