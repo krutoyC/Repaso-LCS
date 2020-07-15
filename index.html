@@ -15,15 +15,32 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-5">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                <p class="lead">En este ejmplo practicaremos LCS
                 </p>
             </div>
         </div>
+        <section>
+            <article>
+                <h5>Ingresar Series</h5>
+                <div class="d-flex">
+                    <input type="text" class="form-control" placeholder="Ej: La casa de Papel" id="serie">
+                    <button class="btn btn-outline-success" onclick="agregarSeries()">ADD</button>
+                    <button class="btn btn-outline-danger">DELET</button>
+                </div>
+            </article>
+            <article class="my-5 text-center">
+                <p class="display-5 font-weight-light"> Seleccione el item de la lista que desea borrar</p>
+                <ul class="list-group  text-justify" id="padreListaSeries">
+                    
+                  </ul>
+            </article>
+        </section>
 
     </main>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="funcionalidad.js"></script>
 </body>
 
 </html>
